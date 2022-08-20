@@ -1,4 +1,4 @@
 # Authentication Module
 
-'import { getAuth } from "firebase/auth";' kütüphane olarak ekleme
+`import { getAuth } from "firebase/auth";` kütüphane olarak ekleme
 
