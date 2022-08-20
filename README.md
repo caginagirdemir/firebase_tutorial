@@ -1,3 +1,2 @@
-# Firebase Tutorial
 
-<img src="firebase.png" width="250" height="250" />
+<img src="firebase.png" width="50" height="50" /> # Firebase Tutorial
