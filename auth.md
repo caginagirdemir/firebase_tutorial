@@ -10,6 +10,7 @@
 
 - islemin bitmesini bekler ve eger hata olusursa `.catch((error) => { const errorCode = error.code; const errorMessage = error.message; });`
 
+- olan kullanicinin credential bilgilerini alma `signInWithEmailAndPassword(auth, email, password) .then((userCredential) ...)`
 
 
 
