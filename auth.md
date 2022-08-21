@@ -8,7 +8,7 @@
 
 - islemin bitmesini bekler ve eger basarili olursa `.then((userCredential) => { const user = userCredential.user; })`
 
-- islemin bitmesini bekler ve eger hata olusursa `.catch((error) => { const errorCode = error.code; const errorMessage = error.message; });
+- islemin bitmesini bekler ve eger hata olusursa `.catch((error) => { const errorCode = error.code; const errorMessage = error.message; });`
 
 
 
