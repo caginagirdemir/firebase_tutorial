@@ -2,10 +2,14 @@
 
 - kütüphane olarak ekleme         `import { getAuth } from "firebase/auth";` 
 
-
-
-
 - initilization etme ve referansını alma    `const auth = getAuth(app);`
+
+- email ve sifre ile kullanici ekleme, promise döndürür `createUserWithEmailAndPassword(auth, email, password)`
+
+- islemin bitmesini bekler ve eger basarili olursa `.then((userCredential) => { const user = userCredential.user; })`
+
+- islemin bitmesini bekler ve eger hata olusursa `.catch((error) => { const errorCode = error.code; const errorMessage = error.message; });
+
 
 
 
