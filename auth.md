@@ -14,6 +14,6 @@
 
 - kullanıcı giriş veya çıkış yapma eventini takip eder eğer user null değilse mevcutta giriş yapmış biri vardır `onAuthStateChanged(auth, (user) => { if(user) ... else ... }`
 
+- güncel kullanıcıyı getirir `var guncel_kullanici = auth.currentUser`
 
-
-
+- profili update etme `updateProfile(auth.currentUser, {displayName: name, photoUrl = url })`
