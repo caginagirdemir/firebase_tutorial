@@ -12,5 +12,8 @@
 
 - olan kullanicinin credential bilgilerini alma `signInWithEmailAndPassword(auth, email, password) .then((userCredential) ...)`
 
+- kullanıcı giriş veya çıkış yapma eventini takip eder eğer user null değilse mevcutta giriş yapmış biri vardır `onAuthStateChanged(auth, (user) => { if(user) ... else ... }`
+
+
 
 
